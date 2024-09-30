@@ -64,6 +64,8 @@ header {
 }
 
 /* HOME */
+
+/*block1*/
 .visiting {
   height: 930px;
   background-image: url(../assets/img/bg_02\ 1.png);
@@ -160,4 +162,33 @@ a:link {
 
 .img_aware:hover, .img_care:hover, .img_stop:hover {
   background-color: var(--main-green-color)
+}
+
+/*block2*/
+.about {
+  padding-top: 96px;
+}
+.about .container {
+  display: flex;
+}
+.about_title {
+  color: --main-dark-color;
+  font-weight: bold;
+  font-size: 64px;
+  list-style: 78px;
+}
+
+.about_title span {
+  color: var(--main-green-color);
+}
+
+.about_subtitle {
+  font-weight: bolder;
+  font-size: 24px;
+  padding-bottom: 16px;
+}
+
+.about_text {
+  font-size: 20px;
+  padding-bottom: 16px;
 }

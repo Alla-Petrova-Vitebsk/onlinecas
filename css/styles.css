@@ -5,8 +5,7 @@
   --main-green-color: #7BF179;
   --main-gray-color: #7F7E7E;
   --hover-gray-color: #DDDADA;
-  --link-color:#7BF179;
-}
+ }
 
 html {
   scroll-behavior: smooth;
@@ -72,7 +71,6 @@ header {
 
 .visiting>.container {
   display: flex;
-
 }
 
 .visiting_title {
@@ -128,5 +126,38 @@ header {
 }
 
 a:link {
-  color:var(--link-color);
+  color:var(--main-green-color);
+}
+
+.img_container {
+  display:flex;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.logo_container {
+  display: flex;
+  gap:12px;
+}
+
+.img_aware {
+  width: 200px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.img_care {
+  width: 170px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.img_stop {
+  width: 186px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.img_aware:hover, .img_care:hover, .img_stop:hover {
+  background-color: var(--main-green-color)
 }

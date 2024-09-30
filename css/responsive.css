@@ -1,8 +1,12 @@
 @media screen and (max-width: 1000px) {
+    
+    .container {
+        padding: 0 25px;  
+      }
+    
     header {
         flex-direction: column;
-        justify-content: center;
-        padding: 0;  
+        justify-content: center; 
     }
 
     .logo {

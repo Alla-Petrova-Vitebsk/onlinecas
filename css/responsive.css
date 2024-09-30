@@ -1,0 +1,16 @@
+@media screen and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;  
+    }
+
+    .logo {
+        width: 292px;
+    }
+
+    .slider {
+        width: 324px;
+    }
+
+}

@@ -5,7 +5,7 @@
   --main-green-color: #7BF179;
   --main-gray-color: #7F7E7E;
   --hover-gray-color: #DDDADA;
- }
+}
 
 html {
   scroll-behavior: smooth;
@@ -117,29 +117,29 @@ header {
   width: 1376px;
   margin: 0 auto;
   border-radius: 24px;
-  background-color: rgba(0,0,0,0.25)
-
+  background-color: rgba(0, 0, 0, 0.25)
 }
+
 .text_container {
-  color:var(--main-light-color);
+  color: var(--main-light-color);
   display: flex;
   justify-content: space-between;
   padding: 32px 48px;
 }
 
 a:link {
-  color:var(--main-green-color);
+  color: var(--main-green-color);
 }
 
 .img_container {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   padding: 0 32px;
 }
 
 .logo_container {
   display: flex;
-  gap:12px;
+  gap: 12px;
 }
 
 .img_aware {
@@ -160,7 +160,9 @@ a:link {
   border-radius: 24px;
 }
 
-.img_aware:hover, .img_care:hover, .img_stop:hover {
+.img_aware:hover,
+.img_care:hover,
+.img_stop:hover {
   background-color: var(--main-green-color)
 }
 
@@ -168,14 +170,17 @@ a:link {
 .about {
   padding-top: 96px;
 }
+
 .about .container {
   display: flex;
 }
+
 .about_title {
   color: --main-dark-color;
   font-weight: bold;
   font-size: 64px;
   list-style: 78px;
+  padding-bottom: 96px;
 }
 
 .about_title span {
@@ -191,4 +196,24 @@ a:link {
 .about_text {
   font-size: 20px;
   padding-bottom: 16px;
+}
+
+.about_card {
+  display: flex;
+  align-items: center;
+  height: 288px;
+  width: 1376px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  border-radius: 24px;
+  border: 1px solid transparent;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, var(--main-dark-color), var(--main-green-color));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.about_card > img {
+  width: 192px;
+  height: 192px;
 }

@@ -293,21 +293,22 @@ header {
 }
 
 /*block3*/
-.description {
+.black_block {
   margin-top: 128px;
-  height: 1012px;
   position: relative;
   background-color: var(--main-dark-color);
   border-radius: 64px;
 }
 
-.description_container {
+.description {
+  height: 1012px;
+}
+
+.black_block_container {
   margin: auto;
   width: 1024px;
   padding-top: 96px;
-
 }
-
 
 .description_title {
   color: var(--main-light-color);
@@ -315,7 +316,6 @@ header {
   font-size: 64px;
   line-height: 78px;
   padding-bottom: 30px;
-
 }
 
 .description_title span {
@@ -433,4 +433,81 @@ header {
 
 .text a {
   color: var(--main-green-color);
+}
+
+/* block8 */
+.advantages {
+  height: 1674px;
+}
+
+.advantages_subtitle {
+  font-size: 36px;
+  color: var(--main-green-color);
+  font-weight: bold;
+  padding-top: 24px;
+}
+
+.advantages_title {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  color: var(--main-light-color);
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+
+.span_red {
+  color: var(--main-red-color);
+}
+
+.img_smile1 {
+  position: relative;
+  left:-80px;
+  top: 65px;
+}
+
+.img_smile2 {
+  position: relative;
+  left:-80px;
+  top: 115px;
+}
+
+.img_cart2 {
+  width: 236px;
+  position: relative;
+  left:154px;
+  top:-1750px;
+}
+
+.container_cart1 {
+  width: 400px;
+  position: relative;
+  left:0;
+  top:-1805px;
+  overflow: hidden;
+}
+
+.img_cart1 {
+  width: 407px;
+  position: relative;
+  left:-40px;
+}
+
+.container_cart3 {
+  width: 355px;
+  position: relative;
+  left:1565px;
+  top:-1040px;
+  overflow: hidden;
+}
+
+.img_cart3 {
+  width: 404px;
+}
+
+.img_cart4 {
+  width: 274px;
+  position: relative;
+  left:1505px;
+  top:-1121px;
 }

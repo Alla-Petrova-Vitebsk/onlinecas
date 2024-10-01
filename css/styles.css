@@ -4,6 +4,7 @@
   --main-light-color: #ffffff;
   --main-green-color: #7BF179;
   --main-gray-color: #7F7E7E;
+  --main-red-color:#FF3C3C;
   --hover-gray-color: #DDDADA;
 }
 
@@ -385,8 +386,8 @@ header {
   left: 1550px;
 }
 
-/* block4 - 5*/
-.characteristics, .features {
+/* block4-5-6-7*/
+.characteristics, .features, .bonus, .find {
   display: flex;
   gap:32px;
   margin-top: 128px;
@@ -394,6 +395,10 @@ header {
 
 .side_right {
   width: 496px;
+}
+
+.side_right > .title {
+  margin-bottom: 24px;;
 }
 
 .side_left {
@@ -424,4 +429,8 @@ header {
 .acc_text {
   width: 764px;
   display: none;
+}
+
+.text a {
+  color: var(--main-green-color);
 }

@@ -387,21 +387,21 @@ header {
 }
 
 /* block4-5-6-7*/
-.characteristics, .features, .bonus, .find {
+.characteristics, .features, .bonus, .find, .conclusion {
   display: flex;
   gap:32px;
   margin-top: 128px;
 }
 
-.side_right {
+.side_r {
   width: 496px;
 }
 
-.side_right > .title {
+.side_r > .title {
   margin-bottom: 24px;;
 }
 
-.side_left {
+.side_l {
   width: 848px;
 }
 

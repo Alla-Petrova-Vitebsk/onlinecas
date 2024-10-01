@@ -178,7 +178,7 @@ header {
   color: --main-dark-color;
   font-weight: bold;
   font-size: 64px;
-  list-style: 78px;
+  line-height: 78px;
   padding-bottom: 96px;
 }
 
@@ -276,7 +276,101 @@ header {
 .card_right_content {
   display: flex;
   flex-direction: column;
-  align-items:end;
-gap:80px;
+  align-items: end;
+  gap: 80px;
+}
 
+/*block3*/
+.description {
+  margin-top: 128px;
+  height: 1012px;
+  position: relative;
+  background-color: var(--main-dark-color);
+  border-radius: 64px;
+  /* overflow: hidden; */
+}
+
+.description_container {
+  margin: auto;
+  width: 1024px;
+  padding-top: 96px;
+
+}
+
+
+.description_title {
+  color: var(--main-light-color);
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  padding-bottom: 30px;
+
+}
+
+.description_title span {
+  color: var(--main-green-color);
+}
+
+.description_text {
+  color: var(--main-light-color);
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+.description_chip02 {
+  width: 261px;
+  position: relative;
+  top: -1058px;
+  left: 142px;
+}
+
+.description_chip03 {
+  width: 261px;
+  position: relative;
+  top: -846px;
+  left: -218px;
+}
+
+.description_chip04 {
+  width: 400px;
+  position: relative;
+  top: -932px;
+  left:2px;
+  overflow: hidden;
+
+}
+
+.img_chip04 {
+  position: relative;
+  left:-78px;
+  width: 479px;
+  filter: blur(5px); 
+}
+
+.description_chip05 {
+  width: 278px;
+  position: relative;
+  top: -1030px;
+  left: 1550px;
+  filter: blur(5px);
+}
+
+.description_chip06 {
+  width: 107px;
+  position: relative;
+  top: -1085px;
+  left: 1813px;
+  overflow: hidden;
+}
+
+.img_chip06 {
+  width: 215px;
+}
+
+.description_chip07 {
+  width: 297px;
+  position: relative;
+  top: -1035px;
+  left: 1550px;
 }

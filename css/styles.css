@@ -18,6 +18,9 @@ body {
   margin: 0 auto;
 }
 
+.hide {
+  display: none;
+}
 .container {
   padding: 0 272px;
 }

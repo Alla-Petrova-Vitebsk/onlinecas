@@ -385,9 +385,10 @@ header {
   left: 1550px;
 }
 
-/* block4 */
-.characteristics {
+/* block4 - 5*/
+.characteristics, .features {
   display: flex;
+  gap:32px;
   margin-top: 128px;
 }
 
@@ -406,7 +407,7 @@ header {
   margin-bottom: 24px;
 }
 
-     /* acordion */
+     /* accordion */
 .acc_title {
   padding-bottom: 24px;
 }

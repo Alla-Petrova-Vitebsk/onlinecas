@@ -135,4 +135,36 @@
         margin-right: 118px;
     }
 
+    /* block3  description*/
+
+    .description {
+        height: 100%;
+        text-wrap: wrap;
+       }
+
+    .description_chip02, .description_chip03, .description_chip04, .description_chip05, .description_chip06,.description_chip07
+    {
+        display: none;
+    }
+
+    .black_block_container {
+        padding: 48px 24px;
+
+      }
+      
+      .black_block {
+        margin-top: 64px;
+        border-radius: 24px;
+      }
+
+      .description_title {
+        font-size: 36px;
+        line-height: 48px;
+        padding-bottom: 12px;
+      }
+
+      .description_text {
+        font-size: 18px;
+        padding-top: 8px;
+      }
 }

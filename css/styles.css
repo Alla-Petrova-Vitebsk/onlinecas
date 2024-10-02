@@ -308,12 +308,12 @@ header {
 }
 
 .description {
-  height: 1012px;
+ height: 1012px;
 }
 
 .black_block_container {
   margin: auto;
-  width: 1024px;
+  max-width: 1024px;
   padding-top: 96px;
 }
 

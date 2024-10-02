@@ -21,6 +21,7 @@ body {
 .hide {
   display: none;
 }
+
 .container {
   padding: 0 272px;
 }
@@ -94,7 +95,7 @@ header {
 .visiting {
   height: 930px;
   background-image: url(../assets/img/bg_02\ 1.png);
-  background-size:cover;
+  background-size: cover;
   border-bottom-left-radius: 64px;
   border-bottom-right-radius: 64px;
 }
@@ -212,6 +213,7 @@ header {
 .about_text {
   padding-left: 30px;
 }
+
 .about_subtitle {
   padding-bottom: 16px;
 }
@@ -261,7 +263,7 @@ header {
   background-color: var(--main-green-color);
   border-radius: 50%;
   display: inline-block;
-  vertical-align:middle;
+  vertical-align: middle;
   margin-right: 5px;
 }
 
@@ -311,7 +313,7 @@ header {
 }
 
 .description {
- height: 1012px;
+  height: 1012px;
 }
 
 .black_block_container {
@@ -418,10 +420,11 @@ header {
 
 .side_l {
   min-width: 848px;
+
 }
 
 .line {
-  max-width: 848px;
+  /* max-width: 848px; */
   height: 2px;
   background-image: linear-gradient(to right, var(--main-dark-color), var(--main-green-color));
   margin-bottom: 24px;
@@ -545,7 +548,7 @@ footer {
 }
 
 .footer_info {
-align-items: center;
+  align-items: center;
 }
 
 .footer_info a {
@@ -556,6 +559,52 @@ align-items: center;
 .a_left {
   padding-right: 48px;
 }
-.a_right{
+
+.a_right {
   float: right;
+}
+
+/* page about us */
+.about_us {
+  background-color: var(--main-dark-color);
+  background-image: url(../assets/img/bg_02\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  color: var(--main-light-color);
+}
+
+.about_group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_side_l {
+  width: 848px;
+}
+
+.about_line {
+  background-image: linear-gradient(to right, var(--main-light-color), var(--main-green-color));
+}
+
+.about_footer > a{
+  color: var(--main-light-color);
+}
+
+.about_footer_info > a {
+  color: var(--main-light-color);
+  text-decoration: none;
+}
+.about_foto {
+  height: 250px;
+}
+.about_img {
+  float: left;
+  padding: 10px;
+}
+.about_subtitle {
+  color: var(--main-green-color);
+}
+
+.about_out {
+  margin-top:128px;
 }

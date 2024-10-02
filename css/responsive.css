@@ -271,7 +271,7 @@
     .a_right {
         float:none;
     }
-}
+
 
 .about_group {
     flex-direction: column;
@@ -284,3 +284,5 @@
   .about_out {
     margin-top:64px;
   }
+
+}

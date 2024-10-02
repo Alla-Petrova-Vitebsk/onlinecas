@@ -608,3 +608,18 @@ footer {
 .about_out {
   margin-top:128px;
 }
+.term_out_title {
+  padding-top: 48px;
+  margin-bottom: 24px;
+  font-size: 72px;
+  line-height: 84px;
+ }
+.term_out_subtitle{
+  margin-bottom: 24px;
+  font-size: 48px;
+}
+
+li {
+  padding-bottom: 12px;
+  font-size: 20px;
+}

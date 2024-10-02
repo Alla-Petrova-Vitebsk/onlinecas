@@ -568,6 +568,7 @@ footer {
 .about_us {
   background-color: var(--main-dark-color);
   background-image: url(../assets/img/bg_02\ 1.png);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom;
   color: var(--main-light-color);

@@ -192,7 +192,7 @@ header {
   background-color: var(--main-green-color)
 }
 
-/*block2*/
+/*block2 about*/
 .about {
   padding-top: 96px;
 }
@@ -209,6 +209,9 @@ header {
   color: var(--main-green-color);
 }
 
+.about_text {
+  padding-left: 30px;
+}
 .about_subtitle {
   padding-bottom: 16px;
 }
@@ -522,6 +525,13 @@ header {
   position: relative;
   left: 1505px;
   top: -1121px;
+}
+
+
+/* conclusion */
+
+.conclusion>.side_l {
+  padding-left: 30px;
 }
 
 /*footer*/

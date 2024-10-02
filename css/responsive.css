@@ -5,7 +5,18 @@
         flex-direction: column;
     }
 
-    header {}
+    .title {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
 
     .logo {
         width: 292px;
@@ -68,6 +79,60 @@
 
     .logo_container {
         flex-direction: column;
+    }
+
+    /* block2 about */
+    .about {
+        padding-top: 64px;
+    }
+
+    .about_title {
+        padding-bottom: 16px;
+    }
+
+    .about_card {
+        width: 340px;
+        height: 626px;
+        flex-direction: column;
+    }
+
+    .card_subtitle {
+        font-size: 24px;
+    }
+
+    .card_text_container {
+        width: 292px;
+    }
+
+    .card_title {
+        font-size: 32px;
+    }
+
+    .card_list {
+        flex-direction: column;
+    }
+
+    .card_ellipse {
+        height: 16px;
+        width: 16px;
+
+    }
+
+    .card_text {
+        font-size: 20px;
+    }
+
+    .card_button {
+        width: 181px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .card_right_content {
+        gap: 24px;
+        align-items: start;
+        padding-bottom: 44px;
+        margin-right: 118px;
     }
 
 }

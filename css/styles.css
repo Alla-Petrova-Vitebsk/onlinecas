@@ -257,6 +257,9 @@ header {
   width: 24px;
   background-color: var(--main-green-color);
   border-radius: 50%;
+  display: inline-block;
+  vertical-align:middle;
+  margin-right: 5px;
 }
 
 .card_text {

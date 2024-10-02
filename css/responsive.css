@@ -272,3 +272,15 @@
         float:none;
     }
 }
+
+.about_group {
+    flex-direction: column;
+  }
+
+  .about_side_l {
+    width: 340px;
+  }
+
+  .about_out {
+    margin-top:64px;
+  }

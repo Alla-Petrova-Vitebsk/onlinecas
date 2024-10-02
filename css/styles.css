@@ -299,7 +299,7 @@ header {
   gap: 80px;
 }
 
-/*block3*/
+/*block3 description */
 .black_block {
   margin-top: 128px;
   position: relative;
@@ -405,7 +405,7 @@ header {
 }
 
 .side_r {
-  width: 496px;
+  min-width: 340px;
 }
 
 .side_r>.title {
@@ -414,11 +414,11 @@ header {
 }
 
 .side_l {
-  width: 848px;
+  min-width: 848px;
 }
 
 .line {
-  width: 848px;
+  max-width: 848px;
   height: 2px;
   background-image: linear-gradient(to right, var(--main-dark-color), var(--main-green-color));
   margin-bottom: 24px;
@@ -439,7 +439,7 @@ header {
 }
 
 .acc_text {
-  width: 764px;
+  max-width: 764px;
   display: none;
 }
 
@@ -447,7 +447,7 @@ header {
   color: var(--main-green-color);
 }
 
-/* block8 */
+/* block8 advantages */
 .advantages {
   height: 1674px;
 }
@@ -524,6 +524,7 @@ header {
   top: -1121px;
 }
 
+/*footer*/
 footer {
   height: 74px;
   margin-top: 96px;

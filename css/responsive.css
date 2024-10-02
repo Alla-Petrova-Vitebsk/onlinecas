@@ -140,31 +140,135 @@
     .description {
         height: 100%;
         text-wrap: wrap;
-       }
+    }
 
-    .description_chip02, .description_chip03, .description_chip04, .description_chip05, .description_chip06,.description_chip07
-    {
+    .description_chip02,
+    .description_chip03,
+    .description_chip04,
+    .description_chip05,
+    .description_chip06,
+    .description_chip07 {
         display: none;
     }
 
     .black_block_container {
         padding: 48px 24px;
 
-      }
-      
-      .black_block {
+    }
+
+    .black_block {
         margin-top: 64px;
         border-radius: 24px;
-      }
+    }
 
-      .description_title {
+    .description_title {
         font-size: 36px;
         line-height: 48px;
         padding-bottom: 12px;
-      }
+    }
 
-      .description_text {
+    .description_text {
         font-size: 18px;
         padding-top: 8px;
-      }
+    }
+
+    /* block4-5-6-7*/
+    .characteristics,
+    .features,
+    .bonus,
+    .find,
+    .conclusion {
+        margin-top: 64px;
+    }
+
+    .side_r,
+    .side_l {
+        min-width: 340px;
+    }
+
+    /* accordion */
+    .acc_title {
+        padding-bottom: 20px;
+    }
+
+    .acc_title:after {
+        content: url("/assets/svg/icon_plus_01_r.svg");
+    }
+
+    .acc_active:after {
+        content: url("/assets/svg/icon_minus_01_r.svg");
+    }
+
+    .acc_text {
+        max-width: 340px;
+    }
+
+    /* block8 advantages */
+    .advantages {
+        height: 100%;
+        text-wrap: wrap;
+    }
+
+    .advantages_subtitle {
+        font-size: 24px;
+    }
+
+    .advantages_title {
+        font-size: 36px;
+        line-height: 48px;
+        padding-top: 8px;
+        padding-bottom: 12px;
+    }
+
+
+    .img_smile1,
+    .img_smile2 {
+        position: static;
+        padding-top: 16px;
+        width: 32px;
+        height: 32px;
+
+    }
+
+    .img_cart1,
+    .img_cart2,
+    .img_cart3,
+    .img_cart4,
+    .container_cart1,
+    .container_cart2 {
+        display: none;
+    }
+
+    /* block9  conclutiob */
+
+    .conclusion>.title {
+        width: 340px;
+    }
+
+    /*footer*/
+    footer {
+        height: 100%;
+        margin-top:64px;
+        margin-bottom: 24px;
+
+    }
+
+    .longline {
+        width: 100%;
+    }
+
+    .footer_info {
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        gap:10px;
+    }
+
+     .a_left {
+        padding:0
+    }
+
+    .a_right {
+        float:none;
+    }
 }

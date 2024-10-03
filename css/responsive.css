@@ -248,7 +248,7 @@
     /*footer*/
     footer {
         height: 100%;
-        margin-top:64px;
+        margin-top: 64px;
         margin-bottom: 24px;
 
     }
@@ -260,66 +260,73 @@
     .footer_info {
         display: flex;
         flex-direction: column;
-        align-items:start;
-        gap:10px;
+        align-items: start;
+        gap: 10px;
     }
 
-     .a_left {
-        padding:0
+    .a_left {
+        padding: 0
     }
 
     .a_right {
-        float:none;
+        float: none;
     }
 
 
-.about_group {
-    flex-direction: column;
-  }
+    .about_group {
+        flex-direction: column;
+    }
 
-  .about_side_l {
-    width: 340px;
-  }
+    .about_side_l {
+        width: 340px;
+    }
 
-  .about_out {
-    margin-top:64px;
-  }
+    .about_out {
+        margin-top: 64px;
+    }
 
-  .term_out_title {
-    font-size: 40px;
-    line-height: 48px;
-   }
-  .term_out_subtitle{
-    font-size: 36px;
-    margin-bottom: 12px;
-  }
-  
-  li {
-    font-size: 18px;
-  }
-  
-  .paragraf {
-    font-size: 24px;
-  }
+    .term_out_title {
+        font-size: 40px;
+        line-height: 48px;
+    }
 
-  .modal{
-    width: 340px;
-    height: 300px;
-    top: calc(50% - 150px);
-    left: calc(50% - 170px);
-  }
+    .term_out_subtitle {
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
 
-  h2 {
-    font-size: 20px;
-  }
+    li {
+        font-size: 18px;
+    }
 
-  .modal_button {
-    width: 132px;
-    height: 44px;
-  }
+    .paragraf {
+        font-size: 24px;
+    }
 
-  .modal-content {
-    margin-top: 20%;
-  }
+    .modal {
+        width: 340px;
+        height: 300px;
+        top: calc(50% - 150px);
+        left: calc(50% - 170px);
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .modal_button {
+        width: 132px;
+        height: 44px;
+    }
+
+    .modal-content {
+        margin-top: 15%;
+    }
+
+    .text_cookie {
+        font-size: 16px;
+        width: 320px;
+        padding-bottom: 8px;
+    }
 
 }

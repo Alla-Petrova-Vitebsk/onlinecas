@@ -36,16 +36,27 @@ function changePageLightBest() {
 }
 
 function modal() {
-    const yes = document.getElementById("btn_yes");
     const overlay = document.getElementById("overlay");
     const modal_old = document.getElementById("modal_old");
+    const modal_cookie = document.getElementById("modal_cookie");
+    const yes = document.getElementById("btn_yes");
+    const yes_cookie = document.getElementById("btn_yes_cookie")
     const img_close = document.getElementById("img_close");
+    const img_close_cookie = document.getElementById("img_close_cookie");
+    const btn_no_cookie = document.getElementById("btn_no_cookie")
 
-    function closeModal() {
+    function closeModalOld21() {
         modal_old.classList.add('hide');
+     }
+
+    function closeModalCookie() {
+        modal_cookie.classList.add('hide');
         overlay.classList.add('hide')
     }
-    yes.addEventListener("click", closeModal)
-    img_close.addEventListener("click", closeModal)
 
+    yes.addEventListener("click", closeModalOld21)
+    img_close.addEventListener("click", closeModalOld21)
+    yes_cookie.addEventListener("click", closeModalCookie)
+    img_close_cookie.addEventListener("click", closeModalCookie)
+    btn_no_cookie.addEventListener("click",closeModalCookie)
 }

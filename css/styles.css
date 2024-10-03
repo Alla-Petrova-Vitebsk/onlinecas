@@ -681,7 +681,7 @@ li {
   height: 50px;
   border-radius: 30px;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   background-color: var(--main-dark-color);
   padding-top: 10px;
@@ -710,4 +710,11 @@ li {
 .img_close {
   float: right;
   padding: 5px;
+  cursor: pointer;
+}
+
+.text_cookie {
+  font-size: 20px;
+  width: 544px;
+  padding-bottom: 12px;
 }

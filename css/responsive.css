@@ -300,8 +300,26 @@
   
   .paragraf {
     font-size: 24px;
-
   }
 
+  .modal{
+    width: 340px;
+    height: 300px;
+    top: calc(50% - 150px);
+    left: calc(50% - 170px);
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .modal_button {
+    width: 132px;
+    height: 44px;
+  }
+
+  .modal-content {
+    margin-top: 20%;
+  }
 
 }

@@ -1,3 +1,4 @@
+modal();
 accordion();
 changePageLightBest()
 
@@ -32,4 +33,19 @@ function changePageLightBest() {
 
     light.addEventListener("click", togglePage);
     best.addEventListener("click", togglePage);
+}
+
+function modal() {
+    const yes = document.getElementById("btn_yes");
+    const overlay = document.getElementById("overlay");
+    const modal_old = document.getElementById("modal_old");
+    const img_close = document.getElementById("img_close");
+
+    function closeModal() {
+        modal_old.classList.add('hide');
+        overlay.classList.add('hide')
+    }
+    yes.addEventListener("click", closeModal)
+    img_close.addEventListener("click", closeModal)
+
 }

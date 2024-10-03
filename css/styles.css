@@ -16,6 +16,7 @@ body {
   font-family: Poppins, sans-serif;
   max-width: 1920px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .hide {
@@ -587,35 +588,40 @@ footer {
   background-image: linear-gradient(to right, var(--main-light-color), var(--main-green-color));
 }
 
-.about_footer > a{
+.about_footer>a {
   color: var(--main-light-color);
 }
 
-.about_footer_info > a {
+.about_footer_info>a {
   color: var(--main-light-color);
   text-decoration: none;
 }
+
 .about_foto {
   height: 250px;
 }
+
 .about_img {
   float: left;
   padding: 10px;
 }
+
 .about_subtitle {
   color: var(--main-green-color);
 }
 
 .about_out {
-  margin-top:128px;
+  margin-top: 128px;
 }
+
 .term_out_title {
   padding-top: 48px;
   margin-bottom: 24px;
   font-size: 72px;
   line-height: 84px;
- }
-.term_out_subtitle{
+}
+
+.term_out_subtitle {
   margin-bottom: 24px;
   font-size: 48px;
 }
@@ -629,4 +635,79 @@ li {
   font-size: 36px;
   font-weight: bold;
   padding-bottom: 12px;
+}
+
+/* modal */
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.modal {
+  width: 672px;
+  height: 370px;
+  border-radius: 24px;
+  background-color: white;
+  position: fixed;
+  top: calc(50% - 185px);
+  left: calc(50% - 336px);
+  z-index: 2;
+}
+
+.modal-show {
+  display: block;
+}
+
+.modal-content {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-buttons {
+  display: flex;
+}
+
+
+.modal_button {
+  width: 282px;
+  height: 50px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: var(--main-dark-color);
+  padding-top: 10px;
+  color: var(--main-light-color);
+}
+
+.yes:hover {
+  background-color: var(--main-dark-color);
+  color: var(--main-light-color);
+}
+
+.no:hover {
+  background-color: var(--main-gray-color);
+}
+
+.active_button_yes {
+  background-color: var(--main-green-color);
+  color: var(--main-text-color);
+}
+
+
+.yes:hover>.img_yes {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(7500%) hue-rotate(112deg) brightness(104%) contrast(101%);
+}
+
+.img_close {
+  float: right;
+  padding: 5px;
 }
